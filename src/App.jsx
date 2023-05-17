@@ -8,7 +8,7 @@ function App() {
         let intervalo = null;
 
         intervalo = setInterval(() => {
-            setTempoDiferenca(moment().diff(moment("09-24-2004")));
+            setTempoDiferenca(moment().diff(moment("01-03-2023")));
         }, 1000);
 
         return () => clearInterval(intervalo);
