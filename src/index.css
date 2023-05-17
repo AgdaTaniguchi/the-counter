@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-background text-paragraph;
+    }
+}
+
+@layer utilities {
+    .box-time {
+        @apply flex flex-col text-center;
+    }
+
+    .box-time h1{
+        @apply text-headline text-2xl font-bold;
+    }
+}
